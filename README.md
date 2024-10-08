@@ -1,4 +1,4 @@
-# Información sobre el dataframe netflix_originals:
+# 📊 Conclusiones generales sobre el dataframe netflix_originals
 
 - Este dataframe contiene información sobre los títulos originales de netflix. Incluye información sobre el título, género, fecha de lanzamiento, duración, notas en IMDB y el idioma.
 
@@ -8,16 +8,14 @@
 
 - Columna **'Unnamed:0'** eliminada, ya que no aporta al ser un índice redundante. Se ha eliminado a través de indicar que el indice donde comienza el data frame es la posición 0 y no un indice añaido por defecto. Ya que para este caso añade una columna de más.
 
-- No hay valores duplicados generales. Tampoco hay títulos iguales en diferentes idiomas no registrados como tal.
+- No existen datos nulos en la base. No hay valores duplicados generales. Tampoco hay títulos iguales en diferentes idiomas no registrados.
 
 - Los principales géneros de películas son documentales (24,7%), drama (14,2%) y comedias (8,1%). Los menos comunes son animación, comedias sobre danza y animación. Todas con un 1,9% del total.-- (Para un futuro me gustaría implementar un método de separación de géneros para aumentar la precisión).
 
-- No existen datos nulos en la base.
-
-- La media de duración de cada show es de una hora y media (94 minutos).
+- La media de duración de cada show es de hora y media (94 minutos).
 
 
-# Conclusiones generales sobre el dataframe netflix_titles
+# 📊 Conclusiones generales sobre el dataframe netflix_titles
 
 - En este dataframe hay titulos de peliculas y series de Netflix.
 
